@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="particles-canvas"></canvas>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Vidyashree V <span>Portfolio</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="header-socials">
+                    <a href="https://github.com/vidyateju106-png" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vidyashree-v-26a076290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Vidyashree V</span></h1>
+                <h2 class="hero-subtitle"><span class="typing-text"></span></h2>
+                <p class="hero-description">Seeking a position to utilize my skills in information technology to ensure
+                    company success and personal growth.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a motivated fresher seeking a Work Integrated Learning Program position. I have a strong
+                            foundation in programming languages like Python, Java, and C++, along with web development
+                            skills in HTML, CSS, and Django. I am eager to apply my knowledge and grow in the
+                            information technology field.</p>
+                        <br>
+                        <p><strong>Languages:</strong> English (Fluent), Kannada (Native), Telugu (Beginner)</p>
+                        <p><strong>Hobbies:</strong> Art Interest, Drawing, Reading, Dance, Editing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline" id="education-list">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Bengaluru University</h3>
+                            <span class="date">Grade: 7.6</span>
+                            <p>Bachelor's Degree</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Seshadripuram First Grade College</h3>
+                            <span class="date">Grade: 8.4</span>
+                            <p>Undergraduate</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Jindal Girls Pre-University</h3>
+                            <span class="date">Grade: 72.3%</span>
+                            <p>Pre-University Course</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>B.N.R Public School</h3>
+                            <span class="date">Grade: 88.0%</span>
+                            <p>High School</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid" id="skills-list">
+                    <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="skill-card"><i class="fab fa-html5"></i><span>HTML/CSS</span></div>
+                    <div class="skill-card"><i class="fas fa-code"></i><span>Django</span></div>
+                    <div class="skill-card"><i class="fas fa-database"></i><span>SQL (MySQL/Oracle)</span></div>
+                    <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+                    <div class="skill-card"><i class="fab fa-github"></i><span>Git/GitHub</span></div>
+                    <div class="skill-card"><i class="fab fa-aws"></i><span>AWS</span></div>
+                    <div class="skill-card"><i class="fas fa-terminal"></i><span>C/C++/.NET</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid" id="projects-list">
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Smart Question Paper Generator</h3>
+                            <p>A Django-based web application to create, manage and generate examination question
+                                papers. Features include question bank management, filtering, and PDF export.</p>
+                            <p><strong>Tech Stack:</strong> HTML, Bootstrap, Python, Django, SQLite</p>
+                            <a href="https://github.com/vidyateju106-png/Smart-Question-paper-generator"
+                                class="btn-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>College Event Management System</h3>
+                            <p>A full-featured College Event Management System (CEMS) managing the entire event
+                                lifecycle from creation to participant registration with QR code tickets.</p>
+                            <p><strong>Tech Stack:</strong> HTML, Tailwind CSS, Python, Django, SQLite</p>
+                            <a href="https://github.com/vidyateju106-png/-College-Event-Hub" class="btn-link"
+                                target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="timeline" id="certifications-list">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Add On Program</h3>
+                            <p>Glisten Education</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>TECHIZEN 2K24</h3>
+                            <p>Banglore University</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Women & AI program</h3>
+                            <p>DELL Technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+                    <p><i class="fas fa-envelope"></i> vvidyashree106@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 9071739576</p>
+                    <p><i class="fas fa-map-marker-alt"></i> DoddaByalakere SubCenter, Bengaluru - 560089</p>
+                    <br>
+                    <a href="mailto:vvidyashree106@gmail.com" class="btn btn-primary">Send Email</a>
+                    <div class="social-links">
+                        <a href="https://github.com/vidyateju106-png" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vidyashree-v-26a076290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vidyashree V. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
